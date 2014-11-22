@@ -1,0 +1,110 @@
+html{
+	background: url(/dbms/img/back.jpg) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
+.container {
+	padding-right: -10px;
+	padding-left: -10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1{
+	font-size: 40px;
+	font-family: Times;
+}
+
+h2{
+	font-family: Book Antiqua;
+	text-decoration: underline;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0;
+}
+
+.outer{
+	height: 350px;
+	display: block;	
+	margin-top: 20%;
+	text-align: center;
+
+}
+.inner{
+	
+	text-align: center;
+	border-style: groove;
+	border-color: #fff;
+	border-width: 1px;
+}
+
+
+th,td{
+	padding-left: 1px;
+	border-style: hidden;
+	color: #fff;
+	vertical-align: center;
+	margin-left: 10px;
+
+	vertical-align: center;
+}
+
+.label{
+	text-align: top;
+}
+}
+#one h2{
+	text-decoration: underline;
+}
+a{
+	text-decoration: underline;
+	color: #fff;
+}
+
+.btn{
+	display:inline-block;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	line-height: 60px;
+	opacity=1.0;
+	filter: alpha(opacity=100);
+	background-position: center;
+	background-size: 100%;
+}
+
+a:hover,.btn:hover{
+	
+	opacity: 0.3;
+	filter: alpha(opacity=30); 
+	color: red;
+}
+
+#admin{
+	background-image: url('/dbms/img/admin.jpg');
+}
+#student{
+	background-image: url('/dbms/img/try.jpg');
+}
+
+.label h2{
+	font-size: 20px;
+	font-family: Lucida Console;
+}
+.footer {
+
+	font-size: 12px;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	right: 0;  
+
+
+}
+
